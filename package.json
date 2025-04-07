@@ -9,6 +9,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "buffer": "^6.0.3",
     "parcel": "^2.14.4",
     "sass": "^1.86.3"
   },
