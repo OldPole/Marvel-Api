@@ -1,0 +1,29 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+  height: 200vh;
+}
+
+* {
+  scrollbar-color: #3199dc #222222;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3199dc;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #222222;
+}/*# sourceMappingURL=App.css.map */
