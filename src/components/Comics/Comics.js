@@ -14,16 +14,16 @@ class Comics {
                 const imgSrc = path + '/' + IMG_STANDARD_XLARGE + '.' + extension;
 
                 htmlContent += `
-                    <li>
-                        <span>${title}</span>
-                        <img src="${imgSrc}" />
+                    <li class="comics-container__item">
+                        <span class="comics-container__item__name">${title}</span>
+                        <img class="comics-container__item__img" src="${imgSrc}" />
                     </li>
                 `;
             }
         });
 
         const htmlWrapper = `
-            <ul>
+            <ul class="comics-container">
                 ${htmlContent}
             </ul>
         `;

@@ -1,0 +1,33 @@
+@use '../App/_App.scss' as *;
+
+.comics-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: $color-light;
+        margin: $spacing-large;
+        width: 250px;
+        transition: 0.5s;
+        cursor: pointer;
+
+
+        &__name {
+            display: flex;
+            margin: auto;
+            padding: $spacing-small $spacing-medium;
+        }
+
+        &__img {
+            width: 100%;
+        }
+    }
+
+    &__item:hover {
+        transform: rotate(-3deg) scale(0.95);
+        filter: saturate(150%);
+    }
+}
